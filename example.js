@@ -2,12 +2,9 @@
 // and include that for it to work properly for you.
 // hmu any questions - details in readme :)
 // Don't use the point store - use a dictionary or database.
-global.EASTING = "e";
-global.NORTHING = "n";
-global.ELEVATION = "el";
-global.BEARING = "bg";
-global.DIST_2D = "dist_2d";
-global.DIST_3D = "dist_3d";
+
+const {setConfig} = require("./index");
+setConfig();
 
 // Set the bounds of our game
 // const {CommonCalculations} = require('./lib/CommonCalculations');
