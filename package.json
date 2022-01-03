@@ -4,17 +4,30 @@
   "description": "Javascript version of my Python flat plane coordinate tools for surveyors and game makers.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node example.js",
+    "go": "nodemon example.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrr-code/survey-toolbox-js.git"
   },
-  "keywords": ["coordinates", "math", "survey", "surveying"],
+  "keywords": [
+    "coordinates",
+    "math",
+    "survey",
+    "surveying"
+  ],
   "author": "Justin Reid",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jrr-code/survey-toolbox-js/issues"
   },
-  "homepage": "https://github.com/jrr-code/survey-toolbox-js#readme"
+  "homepage": "https://github.com/jrr-code/survey-toolbox-js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "prompt": "^1.2.0"
+  }
 }
