@@ -1,6 +1,6 @@
 {
   "name": "survey-toolbox",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript version of my Python flat plane coordinate tools for surveyors and game makers.",
   "main": "index.js",
   "scripts": {
